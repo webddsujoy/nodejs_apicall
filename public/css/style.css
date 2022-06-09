@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    font-family: serif;
+    font-size: 62.5%;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ a, p, span, input,
+.btn {
+    font-size: 1.8rem;
+}
+h1{
+    color: red;
+}
+.form-control{
+    height: 100%;
+}
+.form-outline{
+    width: 70%;
+}
+input.form-control{
+    font-size: 1.8rem;
+}
+header .navbar-light .navbar-nav .nav-link, 
+header .navbar-light .navbar-nav .nav-link.active
+{
+    color: #fff;
+    margin-left:1.9rem;
+}
+header .navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+    
+}
+header .navbar-brand{animation-name: rotate-center;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-delay: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-fill-mode: both;
+  /* shorthand 
+  animation: rotate-center 1s ease-in 0s infinite reverse both;
+  */ 
+}
+@keyframes rotate-center {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.banner-style{
+    padding: 8rem 0;
+    width: 100%;
+    overflow: hidden;
+}
+footer{
+    background: #000;
+    padding: 10px 0;   
+    text-align: center;
+    margin-top: auto;
+}
+footer p{
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 35px;
+    
+
+}
